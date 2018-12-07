@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ssh thibault@104.248.244.245 <<EOF
+ cd ~/notabene-site/server
+ git pull
+ npm install
+ pm2 restart all
+ exit
+EOF
