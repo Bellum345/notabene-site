@@ -22,19 +22,24 @@
     .nav-link {
       color: black;
     }
+
+  .nav a.active {
+  background-color: #343a40;
+  color: white;
+}
   </style>
 
 </head>
 
 <body class="{{template}}">
   <div class="row no-gutters" style="height: 80px">
-      <div class=" bg-dark col-1 mr md-5 d-flex align-items-center d-flex justify-content-center">
+      <div class=" bg-dark col-2 mr md-5 d-flex align-items-center d-flex justify-content-center">
     <h5 class="text-white">Nota Bene</h5>
   </div>
-  <div class="col-9 d-flex align-items-center d-flex justify-content-end">
+  <div class="col-8 d-flex align-items-center d-flex justify-content-end">
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" href="/">Home</a>
+        <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/clients">Clients</a>
